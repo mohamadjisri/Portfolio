@@ -2,6 +2,7 @@
 
 html {
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1px;
 }
 
 * {
@@ -13,6 +14,11 @@ html {
   --primary: #000;
   --secondary: rgb(24 24 27);
   --border: rgba(63, 63, 70, 0.4);
+  --title: rgba(244 244 245);
+  --subtitle: rgba(161 161 170);
+
+  --bgHeader: rgb(39, 39, 42);
+  --blue: rgb(93, 188, 252);
 }
 
 .light {
@@ -35,4 +41,38 @@ body {
 .divider {
   border-bottom: 1px solid var(--border);
   margin: 3rem 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  all: unset;
+  transition: 0.2s;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+button {
+  all: unset;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  scale: 0.9;
 }
