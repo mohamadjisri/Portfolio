@@ -5,10 +5,10 @@ import doneAnimation from "../../animation/done.json";
 import contactAnimation from "../../animation/contact.json";
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm("xrgvvdlo");
+  const [state, handleSubmit] = useForm("xleqlddv");
 
   return (
-    <section className="contact-us">
+    <section id = {"contact"}className="contact-us">
       <h1 className="title">
         <span className="icon-envelope"> </span>
         Contact us
@@ -74,5 +74,4 @@ export default function Contact() {
       </div>
     </section>
   );
-};
-
+}

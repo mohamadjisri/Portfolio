@@ -23,7 +23,7 @@ export default function Main() {
 
   return (
     <main className="flex">
-      <section className="flex  left-section">
+      <section id = {"about"}className="flex  left-section">
         <button
           onClick={() => {
             setcurrentActive("all");
@@ -45,19 +45,11 @@ export default function Main() {
 
         <button
           onClick={() => {
-            handleClick("js");
-          }}
-          className={currentActive === "js" ? "active" : null}
-        >
-          JavaScript
-        </button>
-        <button
-          onClick={() => {
             handleClick("react");
           }}
           className={currentActive === "react" ? "active" : null}
         >
-          React & MUI
+          React
         </button>
         <button
           onClick={() => {
@@ -65,7 +57,7 @@ export default function Main() {
           }}
           className={currentActive === "node" ? "active" : null}
         >
-          Node & Express
+          Dart & Flutter
         </button>
       </section>
 
@@ -86,8 +78,7 @@ export default function Main() {
                 <div style={{ width: "266px" }} className="box">
                   <h1 className="title">{item.projectTitle}</h1>
                   <p className="sub-title">
-                    Lorem ipsum dolor sit amet consectetur elit adipisicing . Ex
-                    tempore dolor in, accusantium laudantium accusamus.
+                    Below you can find the links for the project
                   </p>
 
                   <div className="flex icons">
@@ -95,14 +86,6 @@ export default function Main() {
                       <div className="icon-link"></div>
                       <div className="icon-github"></div>
                     </div>
-
-                    <a className="link flex" href="">
-                      more
-                      <span
-                        style={{ alignSelf: "end" }}
-                        className="icon-arrow-right"
-                      ></span>
-                    </a>
                   </div>
                 </div>
               </motion.article>

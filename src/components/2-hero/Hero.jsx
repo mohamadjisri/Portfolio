@@ -5,6 +5,7 @@ import { useRef } from "react";
 import { motion } from "framer-motion";
 
 export default function Hero() {
+  const lottieRef = useRef();
   return (
     <section className="hero flex">
       <div className="left-section  ">
@@ -30,10 +31,14 @@ export default function Hero() {
         </motion.h1>
 
         <p className="sub-title">
-          I’m Mohamad Jisri, a software developer and entrepreneur based in Sweden
-          City. I’m the founder and CEO of Planetaria, where we develop
-          technologies that empower regular people to explore space on their own
-          {/* Change text */}
+          I’m Mohamad Jisri, a software developer and entrepreneur based in
+          Sweden City. In addition to my education in software development, I
+          also have experience in consulting/marketing for crypto projects. I
+          have worked on several crypto projects together with a large team in
+          various roles. I have practical experience in blockchain, web
+          development and digital currency contract development. In addition, I
+          was involved in the design of their websites, and some of the projects
+          I was most involved in can be found below.
         </p>
 
         <div className="all-icons flex">
