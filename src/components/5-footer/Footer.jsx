@@ -5,20 +5,14 @@ export default function Footer() {
     <footer className="flex">
       <ul className="flex">
         <li>
-          <a href="">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="">Projects</a>
-        </li>
-        <li>
-          <a href="">Speaking</a>
-        </li>
-        <li>
-          <a href="">Uses</a>
+          <a href="#projects">Projects</a>
         </li>
       </ul>
 
-      <p>© 2023 Spencer Sharp. All rights reserved.</p>
+      <p>© 2024 Spencer Sharp. All rights reserved.</p>
     </footer>
   );
 }

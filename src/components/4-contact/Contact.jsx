@@ -8,13 +8,13 @@ export default function Contact() {
   const [state, handleSubmit] = useForm("xleqlddv");
 
   return (
-    <section id = {"contact"}className="contact-us">
+    <section id={"contact"} className="contact-us">
       <h1 className="title">
         <span className="icon-envelope"> </span>
         Contact us
       </h1>
       <p className="sub-title">
-        Contact us for more information and Get notified when I publish
+        Contact me for more information and get notified when I publish
         something new.
       </p>
 
@@ -37,7 +37,7 @@ export default function Contact() {
           </div>
 
           <div className="flex" style={{ marginTop: "24px" }}>
-            <label htmlFor="message">Your message:</label>
+            <label htmlFor="message">Your Message:</label>
             <textarea required name="message" id="message"></textarea>
             <ValidationError
               prefix="Message"

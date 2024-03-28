@@ -23,7 +23,7 @@ export default function Main() {
 
   return (
     <main className="flex">
-      <section id = {"about"}className="flex  left-section">
+      <section id={"projects"} className="flex  left-section">
         <button
           onClick={() => {
             setcurrentActive("all");
@@ -53,9 +53,9 @@ export default function Main() {
         </button>
         <button
           onClick={() => {
-            handleClick("node");
+            handleClick("flutter");
           }}
-          className={currentActive === "node" ? "active" : null}
+          className={currentActive === "flutter" ? "active" : null}
         >
           Dart & Flutter
         </button>
@@ -83,8 +83,18 @@ export default function Main() {
 
                   <div className="flex icons">
                     <div style={{ gap: "11px" }} className="flex">
-                      <div className="icon-link"></div>
-                      <div className="icon-github"></div>
+                      <a
+                        href={item.linkPath}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="icon-link"
+                      ></a>
+                      <a
+                        href={item.githubPath}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="icon-github"
+                      ></a>
                     </div>
                   </div>
                 </div>
