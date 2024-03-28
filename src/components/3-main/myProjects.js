@@ -38,14 +38,14 @@ export const myProjects = [
   {
     projectTitle: "E-Commerce",
     category: ["flutter"],
-    imgPath: "./images/7.jpg",
+    imgPath: "./images/7.PNG",
     linkPath: "https://github.com/mohamadjisri?tab=repositories",
     githubPath: "https://github.com/mohamadjisri?tab=repositories",
   },
   {
     projectTitle: "E-Commerce",
     category: ["flutter"],
-    imgPath: "./images/8.jpg",
+    imgPath: "./images/8.PNG",
     linkPath: "https://github.com/mohamadjisri?tab=repositories",
     githubPath: "https://github.com/mohamadjisri?tab=repositories",
   },
