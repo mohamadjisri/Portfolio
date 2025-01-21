@@ -28,18 +28,25 @@ export default function Hero() {
           transition={{ duration: 2 }}
           className="title"
         >
-          Software developer, founder, and marketer.
+          Software developer
         </motion.h1>
 
         <p className="sub-title">
-          I’m Mohamad Jisri, a software developer and entrepreneur based in
-          Sweden City. In addition to my education in software development, I
-          also have experience in consulting/marketing for crypto projects. I
-          have worked on several crypto projects together with a large team in
-          various roles. I have practical experience in blockchain, web
-          development and digital currency contract development. In addition, I
-          was involved in the design of their websites, and some of the projects
-          I was most involved in can be found below.
+        I’m Mohamad Jisri, a junior software developer with a strong passion for creating innovative solutions that enhance efficiency and user experiences. 
+        My expertise includes Python development, AI, automation, and Amazon AWS Certified Developer – Associate. 
+        I have hands-on experience building intelligent chatbots, automating workflows, and contributing to agile teams. 
+        Skilled in Flask, GitHub workflows, and Linux environments, I deliver robust and scalable solutions.
+        <br /><br />
+        I thrive in collaborative settings and enjoy using cutting-edge technologies to solve complex problems. 
+        Some of the projects I’ve worked on during my studies, work, and free time are listed below (others are excluded due to company policies). 
+        I’ve also contributed to designing crypto-related websites and other impactful projects.
+          <br /><br />
+          <h3>Prior Work Expierence Highlights:</h3> 
+          - Built a custom AI chatbot using PyTorch and NLP At <a href="https://learn2earn.se/" target="_blank" rel="noopener noreferrer" className="hyperlink">Learn2Earn AB</a> that improved customer satisfaction and enabling seamless integration with e-commerce platforms.
+          <br /><br />
+          - Developed Python automation scripts at <a href="https://www.ctek.com/se/" target="_blank" rel="noopener noreferrer" className="hyperlink">CTEK E-Mobility Center</a>, that reduced repetitive tasks by up to 30%, allowing teams to focus on strategic projects.
+          <br /><br />
+          
         </p>
 
         <div className="all-icons flex">

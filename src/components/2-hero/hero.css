@@ -76,3 +76,9 @@ section.hero .animation {
     display: none;
   }
 }
+
+.hyperlink {
+  text-decoration: underline;
+  color: '#87CEEB'; 
+}
+

@@ -59,6 +59,14 @@ export default function Main() {
         >
           Dart & Flutter
         </button>
+        <button
+          onClick={() => {
+            handleClick("python");
+          }}
+          className={currentActive === "python" ? "active" : null}
+        >
+          Python
+        </button>
       </section>
 
       <section className=" flex right-section">

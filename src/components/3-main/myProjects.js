@@ -49,4 +49,11 @@ export const myProjects = [
     linkPath: "https://github.com/mohamadjisri?tab=repositories",
     githubPath: "https://github.com/mohamadjisri?tab=repositories",
   },
+  {
+    projectTitle: "Ai Chatbot",
+    category: ["python"],
+    imgPath: "./images/9.PNG",
+    linkPath: "https://github.com/mohamadjisri?tab=repositories",
+    githubPath: "https://github.com/mohamadjisri?tab=repositories",
+  },
 ];
