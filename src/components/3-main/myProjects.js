@@ -1,0 +1,52 @@
+export const myProjects = [
+  {
+    projectTitle: "Portfolio",
+    category: ["react"],
+    imgPath: "./images/1.PNG",
+    linkPath: "",
+    githubPath: "https://github.com/mohamadjisri?tab=repositories",
+  },
+  {
+    projectTitle: "Sportverse",
+    category: ["css"],
+    imgPath: "./images/2.PNG",
+    linkPath: "https://sportsverse.me/",
+    githubPath: "https://github.com/mohamadjisri?tab=repositories",
+  },
+  {
+    projectTitle: "Sportverse",
+    category: ["css"],
+    imgPath: "./images/3.PNG",
+    linkPath: "https://sportsverse.me/",
+    githubPath: "https://github.com/mohamadjisri?tab=repositories",
+  },
+  {
+    projectTitle: "Portfolio",
+    category: ["react"],
+    imgPath: "./images/4.PNG",
+    linkPath: "",
+    githubPath: "https://github.com/mohamadjisri?tab=repositories",
+  },
+  {
+    projectTitle: "Sportverse",
+    category: ["css"],
+    imgPath: "./images/5.PNG",
+    linkPath: "https://sportsverse.me/",
+    githubPath: "https://github.com/mohamadjisri?tab=repositories",
+  },
+  ,
+  {
+    projectTitle: "E-Commerce",
+    category: ["flutter"],
+    imgPath: "./images/7.PNG",
+    linkPath: "https://github.com/mohamadjisri?tab=repositories",
+    githubPath: "https://github.com/mohamadjisri?tab=repositories",
+  },
+  {
+    projectTitle: "E-Commerce",
+    category: ["flutter"],
+    imgPath: "./images/8.PNG",
+    linkPath: "https://github.com/mohamadjisri?tab=repositories",
+    githubPath: "https://github.com/mohamadjisri?tab=repositories",
+  },
+];
